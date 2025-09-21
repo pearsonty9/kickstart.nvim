@@ -52,7 +52,7 @@ Kickstart Guide:
       - <enter key>
 
     (If you already know the Neovim basics, you can skip this step.)
-
+ini
   Once you've completed that, you can continue working through **AND READING** the rest
   of the kickstart init.lua.
 
@@ -1009,10 +1009,10 @@ do
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
   -- place them in the correct locations.
 
-  -- NOTE: Next step on your Neovim journey: Add/Configure additional plugins for Kickstart
+  -- note: next step on your neovim journey: add/configure additional plugins for kickstart
   --
-  --  Here are some example plugins that I've included in the Kickstart repository.
-  --  Uncomment any of the lines below to enable them (you will need to restart nvim).
+  --  here are some example plugins that i've included in the kickstart repository.
+  --  uncomment any of the lines below to enable them (you will need to restart nvim).
   --
   require 'kickstart.plugins.debug',
   -- require 'kickstart.plugins.indent_line',
@@ -1036,5 +1036,5 @@ do
   -- require 'custom.plugins.git'
 end
 
--- The line beneath this is called `modeline`. See `:help modeline`
+-- the line beneath this is called `modeline`. see `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
